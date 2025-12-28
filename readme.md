@@ -26,4 +26,4 @@ This is an **end-to-end prototype** that converts raw audio into **latent affect
 1. Place a WAV file in the folder (or use existing sample audio).
 2. Run the pipeline:
 ```bash
-python run.py
+latent_head_test.py
