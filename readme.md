@@ -1,4 +1,8 @@
-# Audio-to-Affect Prototype
+# PSYCHODIO Prototype
+
+## Links
+- Video Pitch : [https://youtu.be/FWaS0uk52pA](https://youtu.be/FWaS0uk52pA)
+- Project Deck : [https://drive.google.com/file/d/1wxpMl4hhz1IWfo6YiY-tVsDDVfy3Z0_a/view?usp=sharing](https://drive.google.com/file/d/1wxpMl4hhz1IWfo6YiY-tVsDDVfy3Z0_a/view?usp=sharing)
 
 ## Overview
 This is an **end-to-end prototype** that converts raw audio into **latent affect trajectories** and computes **stability metrics**. The system uses a pretrained `wav2vec2` model and a BiLSTM temporal head to generate Arousal, Valence, Dominance (A/V/D) trajectories. Outputs include CSV, JSON, and visual plots.
@@ -27,3 +31,5 @@ This is an **end-to-end prototype** that converts raw audio into **latent affect
 2. Run the pipeline:
 ```bash
 latent_head_test.py
+
+
